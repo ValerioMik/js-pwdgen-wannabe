@@ -5,14 +5,14 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
 
 /* chiedo il nome */
 
-/* let nome =prompt("inserisci il tuo nome"); */
+let nome =prompt("inserisci il tuo nome");
 
 /* chiedo il cognome */
-/* let cognome =prompt("inserisci il tuo cognome"); */
+let cognome =prompt("inserisci il tuo cognome");
 
 /* chiedo il colore preferito */
 
-/* let colre =prompt("inserisci il tuo colore preferito"); */
+let colre =prompt("inserisci il tuo colore preferito");
 
 /* faccio concatenare i tre risultati  */
   /* faccio generare una pasword "sicurissima" stampata  a schermo  */
@@ -22,6 +22,6 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
  
 let laMiapasworld
 
-laMiapasworld='valerioavallone21'
+laMiapasworld= nome+cognome+colre+21;
 
 document.getElementById("myid").innerHTML = laMiapasworld
